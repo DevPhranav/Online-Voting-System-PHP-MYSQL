@@ -1,0 +1,75 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+
+#loading {
+    display: block;
+    font-size: 36px;
+    color: #27ae60;
+}
+
+#message {
+    display: none;
+    text-align: center;
+    animation: slideRight 2s forwards;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+.ebutton
+{
+width: 270px;
+border: none;
+padding:10px;
+border-radius: 5px;
+margin-bottom: 20px;
+background: linear-gradient(to right, #4CAF50, #2E7D32); 
+cursor: pointer;
+color:white;
+opacity: 1;
+transform: translateY(0);
+transition-duration: .35s;
+}
+
+.ebutton:hover
+{
+background: linear-gradient(to right, white, white); 
+color:black;
+box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+}
+
+.ebutton:active
+{
+transform: translateY(2px);
+transition-duration: .35s;
+}
+
+
+
+.img
+{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left:365px;
+    bottom:68px;
+}

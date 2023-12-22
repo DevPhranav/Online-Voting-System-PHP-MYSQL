@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play&family=Josefin+Sans:wght@500&display=swap');
+
+
+body
+{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.content
+{
+    width: 100%;
+    float:right;
+    height: 50vh;
+}
+
+.election_list
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top:20px;
+}
+
+.title
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    background: linear-gradient(to right, #4CAF50, #2E7D32); 
+    color:white;
+}
+
+
+
+.headtitle
+{
+    margin-left:20px;
+}
+
+.ap
+{
+    margin-left:100px;
+}
+
+.menus
+{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    padding:10px;  
+}
+
+.menus > div >a 
+{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.election
+{
+    margin-top:100px;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+    background-color: rgb(243, 255, 243);
+   
+}
+
+
+
+
+
+.ebutton
+{
+    width: 270px;
+    border: none;
+    padding:10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #4CAF50, #2E7D32); 
+    cursor: pointer;
+    color:white;
+    opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+
+.ebutton:hover
+{
+  background: linear-gradient(to right, white, white); 
+  color:black;
+  box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+}
+
+.ebutton:active
+{
+    transform: translateY(2px);
+  transition-duration: .35s;
+}
+
+
+a {
+    color:white;
+    position: relative;
+    text-decoration: none;
+  }
+  
+  a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color:rgb(84, 212, 84);
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+  }
+  
+  a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+  
