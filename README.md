@@ -20,6 +20,8 @@ The PHP Voting System provides a platform where users can log in, view available
 4. The database schema is provided directly within the project folder. Locate and import the database schema file (e.g., `onlinevotingsystem.sql`) into your phpmyadmin (for XAMPP).
 5. change the username and password in the connect.php (C:\xampp\htdocs\PHP-VOTING-SYSTEM\actions\connect.php)
 6. Run the application on your local server.
+7. localhost URL  : http://localhost/PHP-VOTING-SYSTEM/index.php
+8. phpmyadmin URL : http://localhost/phpmyadmin/
 
 ## Usage
 
